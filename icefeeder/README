@@ -1,0 +1,24 @@
+Icefeeder is a source client for icecast servers.
+
+Notes
+=====
+
+Make sure, that the path for the logfile is writeable for the icefeeder user.
+
+The paths are as followed:
+/var/icefeeder/icefeeder.conf
+/var/icefeeder/streams/<some streams>.conf
+/var/icefeeder/playlists/<some playlists>.conf
+
+At the moment, only simple m3u playlists are supported.
+
+Examples are added to the archive.
+
+Usage
+=====
+Just run "icefeeder".
+
+Bugs
+====
+Please report bugs at the project homepage at berlios:
+http://developer.berlios.de/projects/icefeeder

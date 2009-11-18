@@ -1,0 +1,31 @@
+Add support for multiple playlists per stream
+
+Add support for mixed fileformats in a stream
+
+Add support for other playlist formats
+
+Add GUI to control streams
+
+Add webinterface to control streams
+
+Add control API
+
+Add switch playlists on the fly support (control interface needed)
+
+Add wishlist support (control interface needed)
+
+Add title skipping (control interface needed)
+
+Add enable / disable streams on the fly (control interface needed)
+
+Add enable / disable shuffle and loop on the fly (control interface needed)
+
+Add embedded encoding
+
+Add automatic gain control
+
+Add support to add anouncements to stream (control interface needed)
+
+Add support for creating playlists (control interface needed)
+
+Add better buffer management

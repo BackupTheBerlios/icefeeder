@@ -1,0 +1,24 @@
+#! /bin/sh
+
+test -f /usr/local/bin/icefeeder || exit 0
+
+case "$1" in
+start)
+echo "Starting icefeeder"
+start-stop-daemon --start --quiet --oknodo --exec /usr/local/bin/icefeeder &
+;;
+stop)
+echo "Stopping icefeeder"
+start-stop-daemon --stop --quiet --oknodo --exec /usr/local/bin/icefeeder &
+;;
+restart)
+$0 stop
+sleep 1
+$0 start
+;;
+*)
+echo "Usage: /etc/init.d/icefeeder {start|stop|restart}"
+exit 1
+esac
+
+exit 0
