@@ -1,6 +1,6 @@
 Version 0.0.1
 -------------
-Release date: 2009-06-14
+Release date: 2009-11-19
 
 - Initial release
 
@@ -9,9 +9,3 @@ Release date: 2009-06-14
 Version 0.0.2
 -------------
 Release date:
-
-- Moved to cmake
-
-- Moved to kdevelop4
-
-- Fixed memory leak when stream gets disabled
