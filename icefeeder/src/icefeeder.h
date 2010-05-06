@@ -28,6 +28,7 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <unistd.h>
 #include <boost/thread.hpp>
 #include <boost/ptr_container/ptr_vector.hpp>
 #include "stream.h"

@@ -128,6 +128,8 @@ int main(int argc, char *argv[])
 
         }
 
+            usleep(500000);
+
     }
 
     Log->WriteLog("icefeeder", "no streams left - exiting...", 1);
