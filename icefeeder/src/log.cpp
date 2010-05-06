@@ -92,6 +92,7 @@ void cLog::HandleQueue()
     //loop until mStop is set to true
     while (!mStop)
     {
+        usleep(250000);
         mLogMutex.lock();
 
         //if logqueue is filled handle first message
